@@ -182,7 +182,7 @@ def msg_handler(msgObj):
             gid = msg['value']['group_code']
             tuin = msg['value']['send_uin']
             seq = msg['value']['msg_id']
-            if str(gid) in GroupWatchList:
+            if 1 == 1:
                 g_exist = group_thread_exist(gid)
                 if g_exist:
                     g_exist.handle(tuin, txt, seq)
