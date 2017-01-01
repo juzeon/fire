@@ -1,5 +1,4 @@
 FROM nimmis/apache
-RUN mkdir /var/www/html/
 WORKDIR /var/www/html/
 RUN rm -rf /var/www/html/
 ADD ./* /var/www/html/
