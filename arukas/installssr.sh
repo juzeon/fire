@@ -5,7 +5,7 @@
 #apt-get update #run on arukas
 apt-get clean
 apt-get install -y python python-pip python-m2crypto libnet1-dev libpcap0.8-dev git gcc
-cd /root/
+#cd /root/
 git clone -b manyuser https://github.com/breakwa11/shadowsocks.git ssr
 #git clone https://github.com/snooda/net-speeder.git net-speeder
 #cd /root/net-speeder/
