@@ -14,4 +14,4 @@ sh build.sh
 mv net_speeder /usr/local/bin/
 chmod +x /usr/local/bin/net_speeder
 nohup /usr/local/bin/net_speeder venet0 "ip" >/dev/null 2>&1 &
-/usr/bin/python /root/ssr/shadowsocks/server.py -s 0.0.0.0 -p 7777 -k 111111 -m rc4-md5 -o http_simple -O auth_sha1
+nohup /usr/bin/python /root/ssr/shadowsocks/server.py -s 0.0.0.0 -p 7777 -k 111111 -m rc4-md5 -o http_simple -O auth_sha1 >/dev/null 2>&1 &
