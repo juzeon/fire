@@ -2,10 +2,9 @@
 
 #Install ShadowsocksR with net speeder
 #For debian/ubuntu
-apt-get update #run on arukas
+#apt-get update #run on arukas
 apt-get clean
 apt-get install -y python python-pip python-m2crypto libnet1-dev libpcap0.8-dev git gcc
-apt-get clean
 cd /root/
 git clone -b manyuser https://github.com/breakwa11/shadowsocks.git ssr
 git clone https://github.com/snooda/net-speeder.git net-speeder
